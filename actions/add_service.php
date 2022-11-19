@@ -10,6 +10,8 @@ if(isset($_POST["service"])){
     $service_desc = $_POST["service_desc"];
     $service_keywords = $_POST["service_keywords"];
 
+    
+
     $imgfolder = ".\\..\\images\\service\\";
 
     $upload_imgfolder = "./../images/service/";
@@ -40,3 +42,4 @@ if(isset($_POST["service"])){
 }
 
 ?>
+

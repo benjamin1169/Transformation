@@ -70,7 +70,8 @@ $data = getCAT();
 
         <div class="form-outline mb-4">
             <label class="form-label" for="form3Example3cg">Upload service image</label>
-            <input type="file" id="form3Example3cg" class="form-control form-control-lg" name="service_image"  />
+            <input type="file" id="form3Example3cg" class="form-control form-control-lg" name="service_image" />
+            
         </div>
 
         <div class="form-outline mb-4">

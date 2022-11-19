@@ -79,3 +79,5 @@ function deletebooking_ctr($app_id,$customer_id,$service_id,$app_date){
     return $delete->cancelbooking($app_id,$customer_id,$service_id,$app_date);
 }
 ?>
+
+

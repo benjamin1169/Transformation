@@ -1,3 +1,7 @@
+<?php
+require("../controllers/service_controller.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -81,6 +85,11 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
+		  <form class="form-inline my-2 my-lg-0" method="POST" action="../actions/searchprocess.php">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search by title" aria-label="Search" name="search" >
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="searchbutton">Search</button>
+
+</form>
             <h1 class="mb-2 bread">Our Specialties</h1>
             <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Service <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
