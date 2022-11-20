@@ -40,7 +40,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="index.php">logout</a>
+        <a class="nav-link" href="../index.php">logout</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../admin/category.php">Category</a>
@@ -63,10 +63,7 @@
   </button>
   
   
-  <div
-  style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 90vh; max-height: 90vh;">
-            <h1 style="font-size: 5rem;">Hello <?php if(isset($_SESSION['user_name'])){ echo $_SESSION['user_name']; } else {echo 'Admin'; }?>, Welcome to our Online Store!</h1>
-  </div>
+  
   <?php
 
 session_start();

@@ -121,7 +121,7 @@ if ($__SESSION) {
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
               <h1 class="mb-4 mt-5">The Best Place to Kick of Your Day</h1>
-			  <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
+			  <p><a href="./view/booking.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="./view/service.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
             </div>
 
           </div>
@@ -135,7 +135,7 @@ if ($__SESSION) {
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
               <h1 class="mb-4 mt-5">Your Experience is our Priority</h1>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
+              <p><a href="./view/booking.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="./view/service.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
             </div>
 
           </div>
