@@ -69,7 +69,7 @@
 	        	<li class="nav-item active"><a href="../view/blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="../view/contact.php" class="nav-link">Contact</a></li>
 			      <li class="nav-item"><a href="../view/login_form.php" class="nav-link">Login</a></li>
-	          <li class="nav-item cta"><a href="../view/reservation.php" class="nav-link">Book an Appointment</a></li>
+	          <li class="nav-item cta"><a href="../view/booking.php" class="nav-link">Book an Appointment</a></li>
 	        </ul>
 	      </div>
 	    </div>

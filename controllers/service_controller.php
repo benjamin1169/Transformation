@@ -53,6 +53,12 @@ function searchservice($service_keywords){
     return $newdata-> searchservice($service_keywords);  
 }
 
+//service deletion
+function deleteservice($service_id){
+    $newdata=new AddCAT();
+    return $newdata-> deleteservice($service_id);
+}
+
 //APPOINTMENT MANAGMENT
 
 //add appoinmtnet

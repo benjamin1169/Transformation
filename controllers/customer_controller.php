@@ -26,4 +26,15 @@ function returnCustomer_ctr($email){
   return $add_customer->returnCustomer_cls($email);
 }
 
+function returnCustomerid_ctr($id){
+  $add_customer= new CustomerClass();
+  return $add_customer->returnCustomerid_cls($id);
+}
+
+function get_user_appointment_ctr($app_id){
+  $insert_app= new CustomerClass();
+
+  return $insert_app->get_user_appointment_cls($app_id);
+}
+
 ?>

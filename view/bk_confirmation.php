@@ -74,7 +74,7 @@
               <form class="form-inline" method="POST" action="../actions/delete_app.php">
                   <input class="form-control mr-sm-2" type="hidden" value="'. $_SESSION["user_id"].'" name="customer_id">
                   <input class="form-control mr-sm-2" type="hidden" name="app_id" value =" '.$value["app_id"].'">
-                  <input type="submit" name="delete" value="Remove">
+                  <input type="submit" name="delete" value="Cancel">
                 </form>
               </td>
                <br>     
@@ -89,7 +89,7 @@
 <p>
   Sub total: <?php echo $total; ?>
 </p>
-<button type="button" onclick="window.location.href='payment.php' "class="btn btn-success">Proceed to Payment </button><br> 
+<button type="button" onclick="window.location.href='payment.php?total=<?php echo $total?>' "class="btn btn-success">Proceed to Payment </button><br> 
 
 </body>
 

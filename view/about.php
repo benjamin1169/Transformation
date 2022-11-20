@@ -53,12 +53,12 @@
 			    </div>
 		    </div>
 		  </div>
-    </div> -->
+    </div> 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Appetizer</a>
+	      <a class="navbar-brand" href="../index.php">Salon</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span> Services
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -66,15 +66,15 @@
 			<li class="nav-item"><a href="../index.php" class="nav-link">Home</a></li>
 	        	<li class="nav-item active"><a href="../view/about.php" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="../view/service.php" class="nav-link">Services</a></li>
-				<li class="nav-item"><a href="view/donate.php" class="nav-link">Donate</a></li>
+				<li class="nav-item"><a href="../view/donate.php" class="nav-link">Donate</a></li>
 	        	<li class="nav-item"><a href="../view/blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="../view/contact.php" class="nav-link">Contact</a></li>
 			  <li class="nav-item"><a href="../view/login_form.php" class="nav-link">Login</a></li>
-	          <li class="nav-item cta"><a href="../view/reservation.php" class="nav-link">Book an Appointment</a></li>
+	          <li class="nav-item cta"><a href="../view/booking.php" class="nav-link">Book an Appointment</a></li>
 	        </ul>
 	      </div>
 	    </div>
-	  </nav> -->
+	  </nav> 
     <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('../images 2/salon_image.jpg');" data-stellar-background-ratio="0.5">
@@ -108,7 +108,7 @@
 					</div>
 				</div>
 			</div>
-		</section><section class="ftco-section">
+			<section class="ftco-section">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -123,7 +123,7 @@
 							<div class="text pt-4">
 								<h3>Benjamin Nkansah</h3>
 								<span class="position mb-2">Technical Director</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p> Technical Director is responsible for supervising the audiovisual and technological functions of a company</p>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -142,7 +142,7 @@
 							<div class="text pt-4">
 								<h3>Tawina Chaposa</h3>
 								<span class="position mb-2">Art Director</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p>An Art Director is a professional who is in charge of developing and maintaining a creative vision that speaks to the reader, viewer, or user.</p>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -161,7 +161,7 @@
 							<div class="text pt-4">
 								<h3>Nzube Anioke</h3>
 								<span class="position mb-2">Product Manager</span>
-								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+								<p>The Product Manager is responsible for product planning, delivery and marketing throughout the product lifecycle.</p> 
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -180,7 +180,7 @@
 							<div class="text pt-4">
 								<h3>Shirley Yankyera</h3>
 								<span class="position mb-2">Product Designer</span>
-								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+								<p>The Product Designer is ultimately responsible for discovering and defining a problem, and then empathically designing a solution. The skills that a product designer must have range from technical to human-centered design.</p>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -247,7 +247,7 @@
 
 		
 		<!-- <section class="ftco-section testimony-section" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5"> -->
-		<section class="ftco-section testimony-section img" style="background-image: url(images/bg_5.jpg);">
+		<section class="ftco-section testimony-section img" style="background-image: url(../images/[GetPaidStock.com]-637137dc0671f.jpeg);">
 			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -261,41 +261,41 @@
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item">
                 <div class="testimony-wrap text-center pb-5">
-                  <div class="user-img mb-4" style="background-image: url(../images/person_1.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/pexels-photo-1821095.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Jason McClean</p>
+                    <p class="mb-4">Wow!. It was beyond experience. I walk around boldly knowing how beautiful I look because of my hair. Thank you transformation".</p>
+                    <p class="name">ROPA</p>
                     <span class="position">Customer</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap text-center pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/pexels-photo-1517439.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Stevenson</p>
+                    <p class="mb-4">Your customer service is literally the above the best. I wish I could return to the salon now! Amazing experience. Thank you .</p>
+                    <p class="name">Julia</p>
                     <span class="position">Customer</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap text-center pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/[GetPaidStock.com]-6372d4acb50e3.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="mb-4">Wonderful cut and styling. Always friendly service. I would highly recommend.</p>
                     <p class="name">Art Leonard</p>
                     <span class="position">Customer</span>
                   </div>
@@ -303,13 +303,13 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap text-center pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/istockphoto-1270108315-612x612.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="mb-4">I get my hair done regularly here. Always very happy with my hair. Friendly atmosphere and all staff are very professional. Will continue to keep coming back.</p>
                     <p class="name">Rose Henderson</p>
                     <span class="position">Customer</span>
                   </div>
@@ -317,14 +317,15 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap text-center pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(../images/[GetPaidStock.com]-63757194ed21d.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Ian Boner</p>
+                    <p class="mb-4">I love the team, big shout out to Julie at reception and my hairdresser Nicole of 20 yrs. Always on point, very current cutting and styling. I would highly recommend it.
+.</p>
+                    <p class="name">Iana Boner</p>
                     <span class="position">Customer</span>
                   </div>
                 </div>
@@ -335,44 +336,44 @@
       </div>
     </section>
 		
-		<section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div class="container-fluid px-0">
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container-fluid px-1">
 				<div class="row no-gutters">
 					<div class="col-md">
-						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(images/insta-1.jpg);">
+						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(../images/[GetPaidStock.com]-637175cac501d.jpeg);">
 							<span class="ion-logo-instagram"></span>
 						</a>
 					</div>
 					<div class="col-md">
-						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(images/insta-2.jpg);">
+						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(../images/[GetPaidStock.com]-6371765707ac6.jpeg);">
 							<span class="ion-logo-instagram"></span>
 						</a>
 					</div>
 					<div class="col-md">
-						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(images/insta-3.jpg);">
+						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(../images/[GetPaidStock.com]-63717605c4bee.jpeg);">
 							<span class="ion-logo-instagram"></span>
 						</a>
 					</div>
 					<div class="col-md">
-						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(images/insta-4.jpg);">
+						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(../images/b7600ec91e7f951d6d8f13eb9b20592f.jpeg);">
 							<span class="ion-logo-instagram"></span>
 						</a>
 					</div>
 					<div class="col-md">
-						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(images/insta-5.jpg);">
+						<a href="#" class="instagram img d-flex align-items-center justify-content-center" style="background-image: url(../images/[GetPaidStock.com]-63729d055dbc7.jpeg);">
 							<span class="ion-logo-instagram"></span>
 						</a>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> 
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container-fluid px-md-5 px-3">
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Appetizer</h2>
+              <h2 class="ftco-heading-2">Transformation</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -411,19 +412,19 @@
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Instagram</h2>
               <div class="thumb d-sm-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(../images/[GetPaidStock.com]-637175cac501d.jpeg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(../images/[GetPaidStock.com]-6371765707ac6.jpeg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(../images/[GetPaidStock.com]-63717605c4bee.jpeg);">
 	            	</a>
 	            </div>
 	            <div class="thumb d-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(../images/b7600ec91e7f951d6d8f13eb9b20592f.jpeg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(../images/[GetPaidStock.com]-63729d055dbc7.jpeg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(../images/[GetPaidStock.com]-637137dc0671f.jpeg);">
 	            	</a>
 	            </div>
             </div>

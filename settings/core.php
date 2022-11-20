@@ -1,7 +1,10 @@
 <?php
 //start session
 session_start(); 
-
+if(!isset($_SESSION['user_id'])){
+    
+    header("Location: ../?error=You are not logged in");
+}
 
 //for header redirection
 ob_start();
@@ -20,7 +23,7 @@ ob_start();
 if(isset($_GET['logout']) && $_GET['logout'] == 'true'){
     session_unset();
     session_destroy();
-    header('location: ../');
+    header('Location: ../view/login_form.php');
 }
 
 

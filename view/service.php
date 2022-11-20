@@ -5,7 +5,7 @@ require("../controllers/service_controller.php");
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Appetizer - Free Bootstrap 4 Template by Colorlib</title>
+    <!-- <title>Appetizer - Free Bootstrap 4 Template by Colorlib</title> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -47,7 +47,7 @@ require("../controllers/service_controller.php");
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    <span class="text">youremail@email.com</span>
+						    <span class="text">transformationsalon@gmail.com</span>
 					    </div>
 					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
 						    <p class="mb-0 register-link"><span>Open hours:</span> <span>Monday - Sunday</span> <span>8:00AM - 9:00PM</span></p>
@@ -59,9 +59,9 @@ require("../controllers/service_controller.php");
     </div>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Appetizer</a>
+	      <a class="navbar-brand" href="../index.php">Salon</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span> Services
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -69,11 +69,11 @@ require("../controllers/service_controller.php");
 			<li class="nav-item"><a href="../index.php" class="nav-link">Home</a></li>
 	        	<li class="nav-item "><a href="../view/about.php" class="nav-link">About</a></li>
 	        	<li class="nav-item active"><a href="../view/service.php" class="nav-link">Services</a></li>
-				<li class="nav-item"><a href="view/donate.php" class="nav-link">Donate</a></li>
+				<li class="nav-item"><a href="../view/donate.php" class="nav-link">Donate</a></li>
 	        	<li class="nav-item"><a href="../view/blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="../view/contact.php" class="nav-link">Contact</a></li>
 			  <li class="nav-item"><a href="../view/login_form.php" class="nav-link">Login</a></li>
-	          <li class="nav-item cta"><a href="../view/reservation.php" class="nav-link">Book an Appointment</a></li>
+	          <li class="nav-item cta"><a href="../view/booking.php" class="nav-link">Book an Appointment</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -85,9 +85,47 @@ require("../controllers/service_controller.php");
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
+			<style>
+				#header-middle{
+                 width: 400px;
+                 height: 64px;
+                 float: left;
+                     }
+
+#header-search{
+    position: absolute;
+    left: 50%;
+    top: 20%;    
+    margin-top: -32px;
+    margin-left: -200px;
+}
+
+#header-middle-left{
+    width: 241px;
+    height: 64px;
+    float: left;
+    background-image:url('foo');
+    background-repeat:repeat-x;
+}
+			</style>
 		  <form class="form-inline my-2 my-lg-0" method="POST" action="../actions/searchprocess.php">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search by title" aria-label="Search" name="search" >
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="searchbutton">Search</button>
+		  <div id="header-middle">
+        <div id="header-search">
+            <form>
+                <input type="text" placeholder="Search by title" name="search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="searchbutton">Search</button> 
+            </form>
+        </div>
+        <div id="header-middle-left">
+        </div>
+        <div id="header-transition">
+        </div>
+        <div id="header-middle-right">
+        </div>
+    </div>
+			
+			<!-- <input class="form-control mr-sm-2" type="search" placeholder="Search by title" aria-label="Search" name="search" >
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="searchbutton">Search</button> -->
 
 </form>
             <h1 class="mb-2 bread">Our Specialties</h1>
@@ -126,39 +164,39 @@ require("../controllers/service_controller.php");
 	                  <h3>Loose curls</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$30</span>
-					  <button>Donate</button>
+	                  <span class="price">Ghc 30</span>
+					 
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	              <p>Gentle twists with bouncy effects.</p> 
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/[GetPaidStock.com]-6366b35e1e1cb.jpeg);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/tight_curls.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Tight curls</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 35</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	               <p>Bouncy, buoyant and pretty tight curls. </p> 
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/bdb95c980ba08c376e5a8e45926f39a4.jpeg);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/silkpress.jpg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Silk Press</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$40</span>
+	                  <span class="price">Ghc 40</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	               <p>Straightening of natural hair,soft and silky.</p> 
               </div>
             </div>
         	</div>
@@ -168,45 +206,45 @@ require("../controllers/service_controller.php");
         			<h3>Braids&more</h3>
         		</div>
         		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/[GetPaidStock.com]-636c42054bc25.jpeg);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/loosebraids.jpg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Loose Braids</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 70</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	               <p>Relaxing braids.</p> 
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/86cb94_58993997ed9d43d5bd34b2abebfc403a~mv2_d_6298_4230_s_4_2.jpg.webp);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/microblaids.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Microblaids</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 120</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	              <p>Tiny box braids</p> 
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style= "background-image: url(../images/86cb94_b8471fbbc7bd47459a4a895618b86dc4~mv2_d_6298_4230_s_4_2.jpg.webp);"></div>
+              <div class="menu-img img" style= "background-image: url(../images/service/classicweave.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Classic Weaves</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$50-$200</span>
+	                  <span class="price">Ghc 200</span>
 	                </div>
 	              </div>
-	              <p><span>Frontals</span>, <span>Closure</span>, <span>Pony</span></p>
+	              <p>Hair attachment,beautiful hair fit.</p>
               </div>
             </div>
         	</div>
@@ -216,267 +254,121 @@ require("../controllers/service_controller.php");
         			<h3>Cut & Style</h3>
         		</div>
         		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/86cb94_523307edee1c4a45b721b2bed5ceb7ba~mv2_d_6298_4230_s_4_2.jpg.webp);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/stylecut.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Style Cut </h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$20</span>
+	                  <span class="price">Ghc 20</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	               <p>A Square Cut is a sleek, clean-cut style</p> 
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/86cb94_80cd427ddd8e46e596524df86ce54aec~mv2_d_6298_4230_s_4_2.jpg.webp);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/Trim.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Trim</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 25</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	              <p>Look neat and make a good impression</p> 
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/86cb94_d417b028ac384ae8a02d182670e347df~mv2_d_6298_4230_s_4_2.jpg.webp);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/Dye.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
 	                  <h3>Dye</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 50</span>
 	                </div>
 	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
+	              <p>Have a new hair colour look</p> 
               </div>
             </div>
         	</div>
 
        	
-        	 <!-- <div class="col-md-6 col-lg-4 menu-wrap">
+        	 <div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
-        			<h3>Desserts</h3>
+        			<h3>Barbering</h3>
         		</div>
         		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dessert-1.jpg);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/lowfade.jpg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
+	                  <h3>Low Fade</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 30</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div> -->
-            <!-- </div>
+	              <p>Low hair trim with a clean fade</p>
+              </div> 
+             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dessert-2.jpg);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/all_levelhaircut.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>All Level Cut</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 25</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+	              <p>A 360 low hair cut </p>
               </div>
             </div>
             <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dessert-3.jpg);"></div>
+              <div class="menu-img img" style="background-image: url(../images/service/afrocut.jpeg);"></div>
               <div class="text">
               	<div class="d-flex">
 	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
+	                  <h3>Afro Cut</h3>
 	                </div>
 	                <div class="one-forth">
-	                  <span class="price">$29</span>
+	                  <span class="price">Ghc 35</span>
 	                </div>
 	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+	              <p>Nicely shaped Afro cut</p>
               </div>
             </div>
-        	</div> --> 
+        	</div> 
         	
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Barbering Services</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/[GetPaidStock.com]-63713f5f8c944.jpeg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Cuts and Fades</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$25</span>
-	                </div>
-	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/[GetPaidStock.com]-637140123e3c9.jpeg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Professional Braiding</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$20</span>
-	                </div>
-	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(../images/[GetPaidStock.com]-6371407b5bd6a.jpeg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Beard & Mustache Trim</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$15</span>
-	                </div>
-	              </div>
-	              <!-- <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p> -->
-              </div>
-            </div>
-        	</div>
-
-        	<!-- <div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Drinks</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/drink-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div> --> 
-            <!-- <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/drink-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/drink-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-        	</div>
-        </div> -->
-    	</div> 
-     </section>
-    <section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div class="container-fluid px-0">
-				<div class="row d-flex no-gutters">
-          <div class="col-md-6 ftco-animate makereservation p-4 p-md-5 pt-5 pt-md-0">
-          	<div class="heading-section ftco-animate mb-5">
-	          	<span class="subheading">Book a table</span>
-	            <h2 class="mb-4">Make Reservation</h2>
-	          </div>
-            <form action="#">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Email</label>
-                    <input type="text" class="form-control" placeholder="Your Email">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Phone</label>
-                    <input type="text" class="form-control" placeholder="Phone">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Phone</label>
-                    <input type="text" class="form-control" id="book_date" placeholder="Date">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Time</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Time">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Person</label>
-                    <div class="select-wrap one-third">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Person</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4+</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12 mt-3">
-                  <div class="form-group">
-                    <input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5">
-                  </div>
-                </div>
-              </div>
-            </form>
+        	<!-- <section class="ftco-section testimony-section img" style="background-image: url(images/[GetPaidStock.com]-637137dc0671f.jpeg);">
+			<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+          	<span class="subheading">Testimony</span>
+            <h2 class="mb-4">Happy Customer</h2>
           </div>
-          <div class="col-md-6 d-flex align-items-stretch pb-5 pb-md-0">
-						<div id="map" class="border"></div>
-					</div>
         </div>
-			</div>
-		</section>
+        <div class="row ftco-animate justify-content-center">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap text-center pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/pexels-photo-1821095.jpeg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div> -->
+                 
+    </section>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <!-- <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container-fluid px-md-5 px-3">
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3">
@@ -541,18 +433,22 @@ require("../controllers/service_controller.php");
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <p><!- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
+          <!-- </div>
         </div>
       </div>
     </footer>
-  
+   -->
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
+  <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  -->
+  <?php
+   include("footer.php");
+  ?>
+ 
 
   <script src="../js/jquery.min.js"></script>
   <script src="../js/jquery-migrate-3.0.1.min.js"></script>

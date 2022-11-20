@@ -1,5 +1,5 @@
 <?php
-session_start();
+include('../settings/core.php');
 include ('../controllers/service_controller.php');
 $data = getCAT(); 
 $services = getservices();  
@@ -25,12 +25,32 @@ $services = getservices();
 		body {
 			text-align: center;
 		}
+
+		h2{
+			color: orange;
+			font-size: 600%;
+
+		}
+
+		b{
+			font-size: 400%;	
+		}
+
+		label{
+			font-size: 250%;
+			padding-top: 2em;
+		}
+
+		h4{
+			font-size: 250%;
+		}
 	</style>
 </head>
 
 <body>
 
-	<h2 style="color:green">TRANSFORMATION SALON</h1>
+	<!-- <h2 style="color:orange">TRANSFORMATION SALON</h1> -->
+	<h2>TRANSFORMATION SALON</h2>
 	
 	<b> BOOK AN APPOINTMENT
 	</b>

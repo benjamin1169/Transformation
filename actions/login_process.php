@@ -33,13 +33,13 @@ if(isset($_POST['login'])){
         $_SESSION['user_name'] = $result['customer_name'];
 
         if ($_SESSION['user_role'] == 1){
-            header("Location: ../index.php");
+            header("Location: ../view/navigation.php");
         }else{
-            header("Location: ../view/login_form.php");
+            header("Location: ../view/userlandingpage.php");
         }
  
     }else{
-        header("Location: ../view/login_form.php");
+        header("Location: ../view/service.php");
     } 
 
 

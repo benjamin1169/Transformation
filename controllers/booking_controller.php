@@ -29,4 +29,35 @@ function delete_booking_ctr($app_id){
   return $delete->delete_booking_class($app_id);
 }
 
+function delete_one_booking_ctr($customer_id){
+  $delete = new Booking();
+  return $delete->delete_one_booking_class($customer_id);
+}
+
+
+function insert_order_ctr( $customer_id,$invoice_no,$order_date,$order_stat){
+  $select_contr= new Booking();
+  $data = $select_contr->insert_order_cls( $customer_id,$invoice_no,$order_date,$order_stat);
+  return $data;
+}
+
+
+function get_last_order_ctr($invoice){
+  $select_contr= new Booking();
+  $data= $select_contr-> get_last_order_cls($invoice);
+  return $data;
+}
+
+function select_app_user_ctr($customer_id){
+  $select_contr= new Booking();
+  $data= $select_contr->get_user_app_cls($customer_id);
+  return $data;
+}
+
+function insert_order_details_ctr($order_id,$product_id,$qty){
+  $select_contr= new Booking();
+  $data= $select_contr->insert_order_details_cls($order_id,$product_id,$qty);
+  return $data;
+}
+
 ?>

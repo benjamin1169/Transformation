@@ -1,12 +1,13 @@
-<?php
+<!-- <?php
 
-$email = NULL; 
-if ($__SESSION) {
+// $email = NULL; 
+// if ($__SESSION) {
 
-  $email = $_SESSION['email']; 
-}
+//   $email = $_SESSION['email']; 
+// }
 
-?>
+?> -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,30 +19,30 @@ if ($__SESSION) {
     <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Miss+Fajardose&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="../css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/jquery.timepicker.css">
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style3.css">
-	<link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style3.css">
+	<link rel="stylesheet" href="../css/services.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-	<link rel="stylesheet" href="css/a.css">
+	<link rel="stylesheet" href="..css/a.css">
 	
 	
 
@@ -71,7 +72,7 @@ if ($__SESSION) {
 		    </div>
 		  </div>
     </div>
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	  <!-- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">Salon</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +84,7 @@ if ($__SESSION) {
 	        	<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="view/about.php" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="view/service.php" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="../view/donate.php" class="nav-link">Donate</a></li>
+            <li class="nav-item"><a href="view/donate.php" class="nav-link">Donate</a></li>
 	        	<li class="nav-item"><a href="view/blog.php" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="view/contact.php" class="nav-link">Contact</a></li>
 			  <li class="nav-item"><a href="view/login_form.php" class="nav-link">Login</a></li>
@@ -92,12 +93,7 @@ if ($__SESSION) {
 	      </div>
 	    </div>
 	  </nav>
-    <!-- END nav -->
-    <?php
-    if (isset($_GET['error'])) {
-      echo $_GET['error'];
-    }
-    ?>
+    END nav -->
     
     <section class="home-slider owl-carousel js-fullheight">
       <div class="slider-item js-fullheight" style="background-image: url(images/[GetPaidStock.com]-636be67c80451.jpeg);">
@@ -107,7 +103,7 @@ if ($__SESSION) {
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
               <h1 class="mb-4 mt-5">The Transformation Salon</h1>
-              <p><a href="./view/booking.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="./view/service.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
+              <p><a href="./booking.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="service.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Home</a></p>
             </div>
 
           </div>
@@ -121,7 +117,7 @@ if ($__SESSION) {
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
               <h1 class="mb-4 mt-5">The Best Place to Kick of Your Day</h1>
-			  <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
+			  <p><a href="./booking.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="index.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Home</a></p>
             </div>
 
           </div>
@@ -135,7 +131,7 @@ if ($__SESSION) {
 
             <div class="col-md-12 col-sm-12 text-center ftco-animate">
               <h1 class="mb-4 mt-5">Your Experience is our Priority</h1>
-              <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Services</a></p>
+              <p><a href="./booking.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> <a href="/index.php" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Home</a></p>
             </div>
 
           </div>
@@ -143,7 +139,7 @@ if ($__SESSION) {
       </div>
     </section>
 	
-
+<!-- 
 		<section class="ftco-section ftco-wrap-about ftco-no-pb">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -166,8 +162,8 @@ if ($__SESSION) {
 
 		
 		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/[GetPaidStock.com]-636befd5d3122.jpeg);" data-stellar-background-ratio="0.5">
-		<!-- <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter"> -->
-    	<div class="container">
+		 <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter"> -->
+    	<!-- <div class="container">
     		<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-10">
     				<div class="row d-md-flex align-items-center">
@@ -207,11 +203,11 @@ if ($__SESSION) {
           </div>
         </div>
     	</div>
-    </section>
+    </section> -->
 
     <!-- services -->
 
-<section class="services" id="services">
+<!-- <section class="services" id="services">
 
 <h1 class="heading">premium services</h1>
 
@@ -247,7 +243,7 @@ if ($__SESSION) {
 
 </div>
 
-</section>
+</section> --> -->
 
 <!-- 
 		<section class="ftco-section bg-light">
@@ -339,7 +335,7 @@ if ($__SESSION) {
 		<!-- </section-->
 
 		
-<div class="about">
+<!-- <div class="about">
         <div class="inner-section">
             <h1>Donate</h1>
             <p class="text">
@@ -350,7 +346,7 @@ if ($__SESSION) {
             </div>
         </div>
     </div>
-		
+		 -->
 
     
 
@@ -425,7 +421,7 @@ if ($__SESSION) {
 			</div>
 		</section> -->
     
-		<section class="ftco-section">
+		<!-- <section class="ftco-section">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -440,10 +436,10 @@ if ($__SESSION) {
 							<div class="text pt-4">
 								<h3>Benjamin Nkansah</h3>
 								<span class="position mb-2">Technical Director</span>
-								<p> Technical Director is responsible for supervising the audiovisual and technological functions of a company</p>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 								<div class="faded">
-									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
-									<ul class="ftco-social d-flex">
+									<-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<!-- <ul class="ftco-social d-flex">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
@@ -459,17 +455,17 @@ if ($__SESSION) {
 							<div class="text pt-4">
 								<h3>Tawina Chaposa</h3>
 								<span class="position mb-2">Art Director</span>
-								<p>An Art Director is a professional who is in charge of developing and maintaining a creative vision that speaks to the reader, viewer, or user.</p>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 								<div class="faded">
-									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
-									<ul class="ftco-social d-flex">
+									 <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
+									<!-- <ul class="ftco-social d-flex">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
-	              </div>
-							</div>
+	              </div> --> 
+							<!-- </div>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 ftco-animate">
@@ -477,11 +473,11 @@ if ($__SESSION) {
 							<div class="img" style="background-image: url(images/Nzube.webp);"></div>
 							<div class="text pt-4">
 								<h3>Nzube Anioke</h3>
-								<span class="position mb-2">Product Manager</span>
-								<p>The Product Manager is responsible for product planning, delivery and marketing throughout the product lifecycle.</p> 
-								<div class="faded">
+								<span class="position mb-2">Product Manager</span> -->
+								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+								<!-- <div class="faded"> -->
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
-									<ul class="ftco-social d-flex">
+									<!-- <ul class="ftco-social d-flex">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
@@ -496,11 +492,11 @@ if ($__SESSION) {
 							<div class="img" style="background-image: url(images/shirley.webp);"></div>
 							<div class="text pt-4">
 								<h3>Shirley Yankyera</h3>
-								<span class="position mb-2">Product Designer</span>
-								<p>The Product Designer is ultimately responsible for discovering and defining a problem, and then empathically designing a solution. The skills that a product designer must have range from technical to human-centered design.</p>
-								<div class="faded">
+								<span class="position mb-2">Product Designer</span> -->
+								<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+								<!-- <div class="faded"> -->
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
-									<ul class="ftco-social d-flex">
+									<!-- <ul class="ftco-social d-flex">
 		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
@@ -512,14 +508,14 @@ if ($__SESSION) {
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- <section class="ftco-section testimony-section img" style="background-image: url(images/[GetPaidStock.com]-637137dc0671f.jpeg);"></section>>
 
 		</section> -->
 		
 		<!-- <section class="ftco-section testimony-section" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5"> -->
-		<section class="ftco-section testimony-section img" style="background-image: url(images/[GetPaidStock.com]-637137dc0671f.jpeg);">
+		<!-- <section class="ftco-section testimony-section img" style="background-image: url(images/[GetPaidStock.com]-637137dc0671f.jpeg);">
 			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -606,10 +602,10 @@ if ($__SESSION) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 		
-		<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<!-- <section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-1">
 				<div class="row no-gutters">
 					<div class="col-md">
@@ -637,8 +633,8 @@ if ($__SESSION) {
 							<span class="ion-logo-instagram"></span>
 						</a>
 					</div>
-				</div>
-			</div>
+				</div> -->
+			<!-- </div>
 		</section> 
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
@@ -646,8 +642,8 @@ if ($__SESSION) {
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Salon</h2>
-              <p>Highlight your natural beauty.</p>
+              <h2 class="ftco-heading-2">Appetizer</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -672,7 +668,7 @@ if ($__SESSION) {
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Newsletter</h2>
-            	<p>The ultimate salon experience.</p>
+            	<p>Far far away, behind the word mountains, far from the countries.</p>
               <form action="#" class="subscribe-form">
                 <div class="form-group">
                   <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
@@ -685,33 +681,33 @@ if ($__SESSION) {
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Instagram</h2>
               <div class="thumb d-sm-flex">
-              <a href="#" class="thumb-menu img" style="background-image: url(images/[GetPaidStock.com]-637175cac501d.jpeg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/[GetPaidStock.com]-6371765707ac6.jpeg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/[GetPaidStock.com]-63717605c4bee.jpeg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
 	            	</a>
 	            </div>
 	            <div class="thumb d-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/b7600ec91e7f951d6d8f13eb9b20592f.jpeg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/[GetPaidStock.com]-63729d055dbc7.jpeg);">
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
 	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/[GetPaidStock.com]-637137dc0671f.jpeg);"> 
+	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
 	            	</a>
-	            </div>
+	            </div> -->
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center"> 
 
-            <!-- <p>Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
-      </div> 
+      </div>
     </footer>
   
 
@@ -719,23 +715,23 @@ if ($__SESSION) {
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.easing.1.3.js"></script>
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <script src="../js/jquery.stellar.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.magnific-popup.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/jquery.animateNumber.min.js"></script>
+  <script src="../js/bootstrap-datepicker.js"></script>
+  <script src="../js/jquery.timepicker.min.js"></script>
+  <script src="../js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../js/google-map.js"></script>
+  <script src="../js/main.js"></script>
     
   </body>
 </html>

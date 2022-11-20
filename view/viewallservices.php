@@ -29,7 +29,7 @@ $service = getservices();
 <body style=' margin-bottom: 20px'>
 
 <header style="display: flex; margin-top: 10px; color: black;">
-    <a href="../mini_index.php"><h3 style="color:#dc3545;">Home</h3></a>
+
     <div>
     <form method="post" action="../actions/searchprocess.php" style='display: flex'>
 
@@ -39,12 +39,28 @@ $service = getservices();
     </form>
     </div>
 
-    <a href="../admin/brand.php"><h3 style="color:black; margin-left: 200px;">Brand</h3></a>
-    <a href="../admin/category.php"><h3 style="color:black; margin-left: 40px;">Category</p></h3>
-    <a href="../view/productadded.php"><h3 style="color:black; margin-left: 40px;">Add Product</p></h3>
-    <a href="../admin/productaddandedit.php"><h3 style="color:black; margin-left: 40px;">Edit Product</p></h3>
-    <a href="../view/viewcart.php"><h3 style="color: black; margin-left:40px;">Cart</h3></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href=>Admin</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.php">logout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../admin/category.php">Category</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../admin/service.php">Add Service</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="../view/viewallservices.php">All Services</a>
+      </li>  
+
     
+     
+    </ul>
+  </div>
+
     
 </header>
 
@@ -54,7 +70,7 @@ $service = getservices();
         echo 
         "
         
-        <a href='./viewoneproduct.php?id={$x['product_id']}'>
+        <a href='./viewoneproduct.php?id={$x['service_id']}'>
         <div class='card' style='width: 18rem; display: inline-block; margin-bottom: 20px;'>
             <div class='card-body'>
             <img style='height: 200px; width: 200px' src='{$x['service_image']}' alt='Card image cap'>

@@ -14,7 +14,7 @@ if(isset($_POST["service"])){
 
     $imgfolder = ".\\..\\images\\service\\";
 
-    $upload_imgfolder = "./../images/service/";
+    $upload_imgfolder = "../images/service/";
 
     $service_image = $_FILES["service_image"];
 
@@ -35,7 +35,7 @@ if(isset($_POST["service"])){
         echo "Inserted succesfully";
         session_start();
        $_SESSION["service_rst"] = true;
-        header("location: ../view/service.php");
+        header("location: ../view/navigation.php");
     } else {
         echo "Insertion failed";
     }

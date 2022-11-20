@@ -34,6 +34,35 @@ class Booking extends db_connection{
     $sql = "DELETE FROM `appointment` WHERE `app_id`='$app_id'";
     return $this->query($sql);
     }
+    function delete_one_booking_class($customer_id){
+        $sql = "DELETE FROM `appointment` WHERE `customer_id`='$customer_id'";
+        return $this->query($sql);
+        }
+    
+    
+    function insert_order_cls($customer_id,$invoice_no,$order_date,$order_stat){
+        $sql= "INSERT INTO `orders`( `customer_id`, `invoice_no`, `order_date`, `order_status`) VALUES ('$customer_id','$invoice_no','$order_date','$order_stat')";
+        return $this->query($sql);
+        }
+
+    function get_last_order_cls($invoice){
+        $sql ="SELECT * FROM `orders` WHERE `invoice_no`= '$invoice'";
+        $data =$this->fetchOne($sql);
+            return $data;
+            }
+    
+    function get_user_app_cls($customer_id){
+        $sql ="SELECT * FROM `appointment` WHERE `customer_id` = '$customer_id'";
+        return $this->fetch($sql);
+        }
+    
+        
+    function insert_order_details_cls($order_id,$product_id,$qty){
+        $sql= "INSERT INTO `orderdetails`(`order_id`, `product_id`, `qty`) VALUES ('$order_id','$product_id','$qty')";
+        return $this->query($sql);
+    }
+
+
 }
 
 

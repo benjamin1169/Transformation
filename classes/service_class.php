@@ -19,6 +19,12 @@ class AddCAT extends db_connection{
         return $this->fetch($sql);
         
 	}
+//select one category service 
+    function selec_one_cat($id){
+		$sql="SELECT * FROM `categories` WHERE `cat_id`='$id'";
+        return $this->fetchOne($sql);
+        
+	}
 //update category
     //--UPDATE--//
 	function updatecat($id, $cat){
@@ -64,8 +70,14 @@ function addservice($service_cat,$service_name,$service_price,$service_desc,$ser
  function searchservice($searchdata){
  $sql = "SELECT * FROM `services` WHERE `service_name` LIKE '%$searchdata%' ";
  return $this->fetch($sql);
+
  }
 
+ //delete service
+ function deleteservice($service_id){
+    $sql="DELETE FROM `services` WHERE `service_id` = '$service_id' ";
+    return $this->query($sql);
+ }
 // APPOINTMENT
 //add,edit,delete
 //add appointment
